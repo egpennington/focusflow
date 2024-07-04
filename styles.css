@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.logo {
+    width: 200px;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    color: #4682B4;
+}
+
+input {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 60px;
+    text-align: center;
+    border: 2px solid #4682B4;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#startButton {
+    background-color: #00796b;
+    color: white;
+}
+
+button#startButton:hover {
+    background-color: #004d40;
+}
+
+button#stopButton {
+    background-color: #e64a19;
+    color: white;
+}
+
+button#stopButton:hover {
+    background-color: #d84315;
+}
+
+button#resetButton {
+    background-color: #1976d2;
+    color: white;
+}
+
+button#resetButton:hover {
+    background-color: #1565c0;
+}
+
+#timer {
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4682B4;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    #timer {
+        font-size: 36px;
+    }
+}
